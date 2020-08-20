@@ -9,7 +9,7 @@
 }
 
 .logo-container {
-    height: 10rem;
+    height: 15rem;
 }
 
 .hero-image {
@@ -104,6 +104,9 @@
         text-align: initial;
         font-size: 3.6rem;
     }
+    .logo-container img {
+        height: 100%;
+    }
     .hero-image img {
         height: 100%;
     }
@@ -120,5 +123,6 @@
     }
     .total-connections {
         grid-area: total;
+        justify-self: end;
     }
 }
